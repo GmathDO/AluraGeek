@@ -1,0 +1,40 @@
+.card-section{
+    /* width: 430px; */
+    margin-left: 15px;
+    overflow: scroll;
+}
+
+.cards-container{
+    width: 687.11px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 50px;
+}
+
+/*--------------------------(>430px)--------------------------*/
+@media screen and (width>430px){
+    .card-section{
+        width: 100%;
+        margin: 0;
+    }
+
+    .card-section .cards-container{
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
+
+/*--------------------------(>970px)--------------------------*/
+@media screen and (width>970px) {
+    .card-section{
+        width: 95%;
+        height: 80%;
+        overflow-x: hidden;
+    }
+
+    .cards-container{
+        width: 90%;
+        box-shadow: -12px 10px 5.8px 0px #00000040;
+    }
+}

@@ -1,0 +1,55 @@
+.formulario-container{
+    text-align: center;
+}
+
+.formulario-container h1{
+    margin: 60px 0 40px;
+    padding: 0 45px;
+    line-height: 25px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.5em;
+}
+
+.formulario-container button{
+    width: 164px;
+    height: 55px;
+    font-size: 1.25em;
+    font-weight: 500;
+    border: 3px solid var(--blue);
+    border-radius: 15px;
+}
+
+.formulario-container .enviar-button{
+    background-color: var(--blue);
+    color: white;
+    margin-right: 13px;
+}
+
+.formulario-container .limpiar-button{
+    color: var(--blue);
+    background-color: white;
+}
+
+/*--------------------------(>430px)--------------------------*/
+@media screen and (width>430px) {
+    .formulario-container input{
+        width: 65%;
+        max-width: 500px;
+    }
+}
+
+/*--------------------------(>970px)--------------------------*/
+@media screen and (width>970px) {
+    .formulario-container{
+        width: 472px;
+        height: 517px;
+    }
+
+    .formulario-container h1{
+        margin: 0 0 40px;
+    }
+
+    .formulario-container input{
+        width: 392px;
+    }
+}

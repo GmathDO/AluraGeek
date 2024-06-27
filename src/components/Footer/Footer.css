@@ -1,0 +1,41 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 168px;
+    background-color: var(--violet);
+    margin-top: 80px;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo h1{
+    margin-right: 10px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.5em;
+    color: white;
+}
+
+.footer-text{
+    text-align: center;
+    color: white;
+}
+
+.developer-text{
+    font-weight: 400;
+}
+
+.alura-text{
+    font-weight: 200;
+}
+
+/*--------------------------(>970px)--------------------------*/
+@media screen and (width>970px){
+    footer{
+        height: 232px;
+    }
+}
